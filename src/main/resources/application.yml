@@ -1,0 +1,15 @@
+server:
+  port: 80
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    suffix: .ftl
+    expose-request-attributes: false
+    expose-session-attributes: false
+    request-context-attribute: request
+#  resources:
+#    static-locations:
